@@ -1,0 +1,104 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    background-color: rgb(59, 37, 37);
+}
+
+#cabecalho .nav .nav-link.active{
+    background-color: #fff;
+    color:rgb(59, 39, 39);
+}
+
+#alimentacao .nav .nav-link.active{
+    background-color:rgb(59, 39, 39);
+    color: #fff;
+}
+
+#cabecalho .nav .nav-link,
+h2{
+    color: #fff;
+}
+
+#alimentacao .nav .nav-link,
+#noWhite,
+#colorEd,
+section form label{
+    color:rgb(59, 39, 39);
+}
+
+#atracoes,
+#acomodacoes,
+#colorFoot {
+    background-color: rgb(59, 39, 39);
+}
+
+
+h1,
+h2{
+    font-family: "Satisfy", cursive;
+    color: #fff;
+}
+
+#text-img{
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    font-weight: bold;
+    font-size: 48px;
+}
+
+
+#img-redm {
+    height: 250px;
+    object-fit: cover;
+}
+
+#img-alt {
+    height: 712px;
+    object-fit: cover;
+} 
+
+#img-hei{
+    height: 600px;
+    object-fit: cover;
+}
+
+.sociais-links li{
+    display: inline;
+    list-style: none;
+}
+
+.sociais-links a {
+    color: rgb(59, 39, 39);
+    text-decoration: none;
+}
+
+textarea{
+    resize: none;
+    height: 200px;
+}
+
+.toast-marrom {
+    background-color: #6f4e37; 
+    color: #fff; 
+    border-left: 5px solid #a0522d; 
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); 
+    border-radius: 0.75rem;
+    overflow: hidden; 
+}
+
+.toast-marrom .toast-header {
+    background-color: #5a3b2e; 
+    color: #fff;
+    font-weight: bold;
+}
+
+.toast-marrom .btn-success {
+    background-color: #a0522d;
+    border: none;
+}
+
+.toast-marrom .btn-success:hover {
+    background-color: #b15f36;
+}
