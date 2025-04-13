@@ -6,7 +6,8 @@ header{
     background-color: rgb(59, 37, 37);
 }
 
-#cabecalho .nav .nav-link.active{
+#cabecalho .nav .nav-link.active,
+.navbar-toggler{
     background-color: #fff;
     color:rgb(59, 39, 39);
 }
@@ -41,9 +42,11 @@ h2{
     color: #fff;
 }
 
+
 #text-img{
     font-family: 'Roboto', sans-serif;
-    color: #fff;
+    color: white;
+    text-shadow: 2px 2px 4px black;
     font-weight: bold;
     font-size: 48px;
 }
@@ -101,4 +104,56 @@ textarea{
 
 .toast-marrom .btn-success:hover {
     background-color: #b15f36;
+}
+
+@media screen and (min-width: 641px) and (max-width: 1023px) {
+
+    .tab-content{
+        margin-left: 40px ;
+    }
+
+    #img-redm {
+        height: 200px;
+        object-fit: cover;
+    }
+
+}
+
+@media screen and (max-width: 640px) {
+    #img-alt {
+        margin: auto;
+        height: 500px;
+    }
+
+    #camping h2,
+    p {
+        margin-top: 12px;
+        text-align: center;
+    }
+
+    #text-img{
+        font-size: 24px;
+    }
+
+
+    #alimentacao .row{
+        margin: 0%;
+    }
+
+    #alimentacao aside {
+        margin-bottom:  12px;
+    }
+
+    #contato .row{
+        margin: 0%;
+    }
+
+    #layoutms{
+        padding-top: 12px;
+        text-align: center;
+    }
+
+    #alimentacao h5 {
+        text-align: center;
+    }
 }
